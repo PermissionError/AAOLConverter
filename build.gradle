@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.rayma'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.8'
+    compile group: 'com.miglayout', name: 'miglayout-swing', version: '5.2'
+
+}
